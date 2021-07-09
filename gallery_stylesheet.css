@@ -1,0 +1,55 @@
+@font-face {
+  src: url(Fonts/DancingScript-VariableFont_wght.ttf);
+  font-family: Cursive1;
+}
+body{
+  font-family: Cursive1;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+h1{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin: 10px 0 50px;
+  font-size: 5vh;
+}
+.gallery{
+  margin: 10px 50px;
+}
+.gallery img{
+  width: 230px;
+  padding: 10px;
+  filter:grayscale(100%);
+  transition: ls;
+}
+.gallery img:hover{
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+ul {
+  margin-top: 35px;
+  margin-right: 50px;
+  right:50%;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 2%;
+}
+
+ul li a {
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+  font-size: 3vh;
+  font-family: Cursive1;
+  padding: 10px 40px;
+  background-color: white;
+  border-radius: 15px;
+  border:0;
+}
+
+ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: rgb(0, 0, 0);
+}

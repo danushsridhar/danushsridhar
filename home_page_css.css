@@ -1,0 +1,94 @@
+@font-face {
+  src: url(Fonts/AkayaKanadaka-Regular.ttf);
+  font-family: kan;
+}
+@font-face {
+  src: url(Fonts/BalooTamma2-Bold.ttf);
+  font-family: kan1B;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #ac6f2e;
+  overflow: hidden;
+}
+header{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("Images/Background Images/bangalore1.jpg");
+  height:100vh;
+  background-position: center;
+  background-size: cover;
+  transform: scale(0.97, 0.97);
+  transition: 3s ease;
+}
+
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  line-height:inherit;
+  -webkit-touch-callout: none; /* iOS Safari */
+   -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+      -moz-user-select: none; /* Firefox */
+       -ms-user-select: none; /* Internet Explorer/Edge */
+           user-select: none; /* Non-prefixed version, currently
+                                 supported by Chrome and Opera */
+}
+
+.title h2{
+  color: #ffffff;
+  font-size: 180px;
+  font-family: kan;
+  text-align: center;
+  transition: 3s ease;
+  transform: scale(1, 1);
+}
+.title h1{
+  color: #ffffff;
+  font-size: 220px;
+  font-family: kan;
+  text-align: center;
+  transition: 3s ease;
+  transform: scale(1, 1);
+}
+.title span{
+  color:#ac6f2e;
+}
+.title h2:hover{
+  color: #ac6f2e;
+  transition: 2s ease;
+  transform: scale(1.2, 1.2);
+}
+.title h1:hover{
+  color: #ac6f2e;
+  transition: 2s ease;
+  transform: scale(1.2, 1.2);
+
+}
+
+.button{
+  position: absolute;
+  top: 90%;
+  left: 90%;
+  transform: translate(-50%,-50%);
+}
+.btn{
+  color: #ac7c3d;
+  text-decoration: none;
+  font-size: 60px;
+  font-family: kan;
+  transform: scale(1, 1);
+  -webkit-touch-callout: none; /* iOS Safari */
+   -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+      -moz-user-select: none; /* Firefox */
+       -ms-user-select: none; /* Internet Explorer/Edge */
+           user-select: none; /* Non-prefixed version, currently
+                                 supported by Chrome and Opera */
+}
+.btn:hover{
+  color: #ffffff;
+}

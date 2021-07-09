@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'sans-serif';
+}
+@font-face {
+  src: url(Fonts/OriginalSurfer-Regular.ttf);
+  font-family: OriginalSurfer;
+}
+.container {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("images/Background images/Sankey Tank.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  background-attachment: fixed;
+}
+.navbar{
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+nav{
+  flex:1;
+  text-align:right;
+}
+nav ul li{
+  list-style: none;
+  display:inline-block;
+  margin-right: 8%;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+  font-size: 2.2vh;
+  font-family: OriginalSurfer;
+  padding: 10px 40px;
+  background-color: white;
+  border-radius: 15px;
+  border:0;
+}
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.21);
+  border-radius: 20px;
+  color: #fff;
+}
+.row{
+  display:flex;
+  height:100vh;
+  align-items: center;
+}
+.col{
+  flex-basis: 50%;
+}
+h1{
+  color: white;
+  font-size: 5vh;
+  font-family: OriginalSurfer;
+}
+p{
+  color: white;
+  font-size: 2.5vh;
+  line-height: 30px;
+  font-family: OriginalSurfer;
+}
+.card{
+  width:200px;
+  height:230px;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 15px 25px;
+  box-sizing:border-box;
+  cursor: pointer;
+  margin:20px 15px;
+  background-image: url(images/airport.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+  transform: scale(1);
+  position: relative;
+}
+.card1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("images/Guide/1.jpg");
+
+}
+.card2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("images/Guide/2.jpg");
+}
+.card3{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("images/Guide/3.jpg");
+}
+.card:hover{
+  transform: translateY(-50px);
+  transform: scale(1.3);
+}
+h5{
+  position: absolute;
+  top:45%;
+  color:white;
+  text-shadow: 0 0 5px #999;
+  font-size: 2vh;
+  font-family: OriginalSurfer;
+  text-align: center;
+}
+.youtube-video-row{
+  display:flex;
+  height:80%;
+  align-items: center;
+}
+.youtube-video-col{
+  flex-basis: 50%;
+
+}
+.iframe-container{
+  position: relative;
+  padding-bottom: 56.25%;
+  height:0;
+}
+.iframe-container iframe{
+  position:absolute;
+  top:0;
+  left: auto;
+  width:100%;
+  height:100%;
+}
+.youtube-video-col h3{
+  color: white;
+  font-size: 5vh;
+  font-family: OriginalSurfer;
+  text-align: center;
+}
+.youtube-video-col p{
+  color: white;
+  font-size: 2.5vh;
+  font-family: OriginalSurfer;
+  text-align: center;
+  padding-left: 3%;
+  padding-right: 3%;
+}
